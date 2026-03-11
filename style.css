@@ -52,10 +52,11 @@ border: 0.5px solid rgb(125, 125, 125);
 section.projects figure, 
 section.projects figcaption{
 	grid-column: 1/span 8;
+	margin: 0; 
 }
 
 section.hero h1{
-grid-column: 1 / span8;
+grid-column: 1 / -1;
 padding-bottom: 100px;
 }
 
