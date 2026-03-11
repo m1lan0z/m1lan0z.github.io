@@ -43,6 +43,12 @@ img {
   display: block;
 }
 
+section.projects {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
 section.projects figure, 
 section.projects figcaption{
 	grid-column: 1/span 8;
