@@ -28,7 +28,7 @@ section{
 
 	display: grid;
 	grid-template-columns:repeat(8, 1fr);
-	gap: 16px;
+	gap: 0 16px;
 	grid-auto-flow: dense;
 
 	padding-top: 100px;
@@ -71,12 +71,16 @@ a {
 }
 
 	@media (max-width: 1040px) {
+		
 		h1 {
 			font-size: 42px;
 		}
 	}
 
 	@media (max-width: 840px) {
+		  body {
+    padding: 0 20px;
+  }
 		h1 {
 			font-size: 32px;
 		}
