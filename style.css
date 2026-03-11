@@ -37,6 +37,12 @@ width: 100vw;
 margin-left: calc(50% - 50vw);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 section.projects figure, 
 section.projects figcaption{
 	grid-column: 1/span 8;
