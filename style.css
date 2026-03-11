@@ -24,7 +24,7 @@ h1{
 }
 
 section{
-	max-width: 1480px;
+	width: 100%;
 
 	display: grid;
 	grid-template-columns:repeat(8, 1fr);
